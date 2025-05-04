@@ -228,7 +228,7 @@ app.get(
   }
 );
 
-// Redirect endpoint 
+// Redirecting endpoint 
 app.get("/r/:shortCode", async (req, res) => {
   const { shortCode } = req.params;
   const urlEntry = await Url.findOne({ shortCode });
