@@ -3,7 +3,7 @@
 
 This project is a simple URL shortening service built with **Node.js**, **Express**, **MongoDB**, and a basic frontend using **HTML/CSS/JS**.
 
-** Setup Instructions**
+ **Setup Instructions**
 
 ** 1. Clone the repository**
 git clone https://github.com/Maryam1031/maryam-innovaxel-sarfraz.git
