@@ -47,7 +47,7 @@ async function getUniqueShortCode() {
   return shortCode;
 }
 
-// Validate URL format
+// Validating URL format
 const isValidUrl = (url) => {
   try {
     new URL(url);
