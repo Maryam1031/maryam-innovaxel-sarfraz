@@ -200,7 +200,7 @@ app.delete(
   }
 );
 
-// 3.5 Get URL Statistics
+// 3.5 Geting URL Statistics
 app.get(
   "/statistics/:shortCode",
   [param("shortCode").notEmpty().withMessage("Short code is required")],
