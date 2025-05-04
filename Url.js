@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//Created URL model schema
 const urlSchema = new mongoose.Schema({
     id: {
         type: String,
