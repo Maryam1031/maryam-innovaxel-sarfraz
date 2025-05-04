@@ -24,7 +24,7 @@ mongoose
   .then(() => console.log(" Connected to MongoDB Atlas"))
   .catch((err) => console.error(" MongoDB connection error:", err));
 
-//Function to generate random short codes
+//Function to generate random short code
 function generateShortCode(length = 6) {
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let result = "";
