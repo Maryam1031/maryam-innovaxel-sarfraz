@@ -178,7 +178,7 @@ app.put(
   }
 );
 
-// 3.4 Delete Short URL
+// 3.4 Deleting Short URL
 app.delete(
   "/shorten/:shortCode",
   [param("shortCode").notEmpty().withMessage("Short code is required")],
