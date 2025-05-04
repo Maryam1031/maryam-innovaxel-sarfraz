@@ -102,7 +102,7 @@ app.post(
   }
 );
 
-// 3.2 Retrieve Original URL
+// 3.2 Retrieving Original URL
 app.get(
   "/shorten/:shortCode",
   [param("shortCode").notEmpty().withMessage("Short code is required")],
