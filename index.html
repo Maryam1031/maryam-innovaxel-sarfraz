@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>URL Shortener Service</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>URL Shortener App</h1>
+
+    <!-- Create Short URL -->
+    <section>
+        <h2>Shorten a URL</h2>
+        <input id="shortenInput" type="text" placeholder="Enter URL" />
+        <button onclick="createShortUrl()">Shorten</button>
+        <pre id="shortenResult"></pre>
+    </section>
+
+    <!-- Retrieve Original URL -->
+    <section>
+        <h2>Retrieve Original URL</h2>
+        <input id="retrieveInput" type="text" placeholder="Enter short code" />
+        <button onclick="getOriginalUrl()">Get Original</button>
+        <pre id="retrieveResult"></pre>
+    </section>
+
+    <!-- Update Short URL -->
+    <section>
+        <h2>Update Short URL</h2>
+        <input id="updateCode" type="text" placeholder="Short code" />
+        <input id="updateUrl" type="text" placeholder="New URL" />
+        <button onclick="updateUrl()">Update</button>
+        <pre id="updateResult"></pre>
+    </section>
+
+    <!-- Delete Short URL -->
+    <section>
+        <h2>Delete Short URL</h2>
+        <input id="deleteInput" type="text" placeholder="Enter short code" />
+        <button onclick="deleteUrl()">Delete</button>
+        <pre id="deleteResult"></pre>
+    </section>
+
+    <!-- Get Statistics -->
+    <section>
+        <h2>Get URL Statistics</h2>
+        <input id="statsInput" type="text" placeholder="Enter short code" />
+        <button onclick="getStatistics()">Get Stats</button>
+        <pre id="statsResult"></pre>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

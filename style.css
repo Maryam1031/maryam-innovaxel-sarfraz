@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+input {
+    padding: 8px;
+    margin: 4px 0;
+    width: 80%;
+}
+
+button {
+    padding: 8px 16px;
+    margin-top: 4px;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    overflow-x: auto;
+}
