@@ -57,7 +57,7 @@ const isValidUrl = (url) => {
   }
 };
 
-// 3.1 Create Short URL
+// 3.1 Creating Short URL
 app.post(
   "/shorten",
   [
