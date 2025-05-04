@@ -24,7 +24,7 @@ async function createShortUrl() {
     }
 }
 
-// 3.2 Retrieve Original URL
+// 3.2 Retrieving Original URL
 async function getOriginalUrl() {
     const shortCode = document.getElementById("retrieveInput").value;
     const res = await fetch(`${apiBase}/shorten/${shortCode}`);
