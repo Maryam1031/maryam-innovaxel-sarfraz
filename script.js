@@ -8,7 +8,7 @@ function displayError(elementId, error, label) {
     document.getElementById(elementId).textContent = `${label}\nError: ${error}`;
 }
 
-// 3.1 Create Short URL
+// 3.1 Creating Short URL
 async function createShortUrl() {
     const url = document.getElementById("shortenInput").value;
     const res = await fetch(`${apiBase}/shorten`, {
