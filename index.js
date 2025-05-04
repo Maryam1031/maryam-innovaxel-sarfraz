@@ -133,7 +133,7 @@ app.get(
   }
 );
 
-// 3.3 Update Short URL
+// 3.3 Updating Short URL
 app.put(
   "/shorten/:shortCode",
   [
